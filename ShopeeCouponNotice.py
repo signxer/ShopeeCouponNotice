@@ -24,7 +24,7 @@ def sendAlarm(sckey,title,content):
     req = urllib.request.urlopen(alarmUrl)
 
 def main():
-	sckey_list = ['SCU13488Tbbab32690067d7cb358f8c79aeabc6ed59d898c8d2555','SCU13719T89e2399eedaf0ebced12ddd574a9164059dd0083109e4']
+	sckey_list = ['SCUxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx','SCUxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx']
 	status = getImage()
 	locale.setlocale(locale.LC_CTYPE, 'chinese')
 	while True:
